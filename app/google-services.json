@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "833176670414",
+    "firebase_url": "https://demoblog-2deb7.firebaseio.com",
+    "project_id": "demoblog-2deb7",
+    "storage_bucket": "demoblog-2deb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833176670414:android:fc06d97b78bbca2704809f",
+        "android_client_info": {
+          "package_name": "com.nonexistenware.igor.demoblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833176670414-rdb03l41ke1po5q0qchb7giia4k546dq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nonexistenware.igor.demoblog",
+            "certificate_hash": "96934517de6c58c91d3760d10f9a17ad1364801d"
+          }
+        },
+        {
+          "client_id": "833176670414-iqospgttq0nvtcbcgqc765ppgtjsqqih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwz6xeEpB1cmyZt__QgxLxcTTmsKNOB-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833176670414-iqospgttq0nvtcbcgqc765ppgtjsqqih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
