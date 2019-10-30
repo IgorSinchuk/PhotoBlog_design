@@ -28,13 +28,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/blog_post_title_view"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Post Title"
-                android:textSize="30sp"
-                android:textColor="@android:color/white"/>
+
 
 <!--            <View-->
 <!--                android:id="@+id/view1"-->
@@ -46,60 +40,98 @@
 
         </LinearLayout>
 
-            <LinearLayout
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/blog_author_image_post_view"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="left"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/blog_post_author_name"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:text="Date"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"/>
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/blog_author_image_post_view"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:layout_gravity="left"
-                    android:scaleType="centerCrop"/>
+            <!--                    <TextView-->
+            <!--                        android:id="@+id/blog_post_date_view"-->
+            <!--                        android:layout_marginLeft="10dp"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:text="Post date"-->
+            <!--                        android:layout_gravity="center"-->
+            <!--                        android:textColor="@android:color/white"/>-->
 
-                <TextView
-                    android:layout_marginLeft="10dp"
-                    android:id="@+id/blog_post_author_name"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Date"
-                    android:textStyle="bold"
-                    android:layout_gravity="center"
-                    android:textColor="@android:color/white"/>
+<!--            <TextView-->
+<!--                android:id="@+id/blog_post_like_view_count"-->
+<!--                android:layout_marginLeft="240dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="00000"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:textColor="@android:color/white"/>-->
 
-                    <TextView
-                        android:id="@+id/blog_post_date_view"
-                        android:layout_marginLeft="10dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Post date"
-                        android:layout_gravity="center"
-                        android:textColor="@android:color/white"/>
+<!--            <ImageView-->
+<!--                android:id="@+id/post_like"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:src="@drawable/likewhitef" />-->
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_weight="1.27"
+                android:orientation="vertical"
+                android:layout_marginLeft="250dp">
 
                 <TextView
                     android:id="@+id/blog_post_like_view_count"
-                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="00000"
-                    android:layout_gravity="center"
+                    android:text="200"
                     android:textColor="@android:color/white"/>
 
                 <ImageView
-                    android:id="@+id/post_like"
-                   android:layout_marginLeft="0dp"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/likewhitef" />
+                    android:src="@drawable/likegrey"/>
 
-                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
 
         <LinearLayout
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/blog_post_title_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post Title"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"/>>
 
             <TextView
                 android:layout_marginTop="10dp"
@@ -111,6 +143,8 @@
 
         </LinearLayout>
 
+
+
         <LinearLayout
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
@@ -120,13 +154,14 @@
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/author_of_comment_image"
                 android:layout_width="30dp"
-                android:layout_height="30dp"/>
+                android:layout_height="30dp"
+                android:scaleType="centerCrop"/>
 
             <EditText
                 android:id="@+id/comment_text_edit"
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
-                android:hint="Enter your comment here."
+                android:hint="Leave your comment here."
                 android:textColorHint="@android:color/white"
                 android:textSize="10sp"
                 android:textColor="@android:color/white"/>

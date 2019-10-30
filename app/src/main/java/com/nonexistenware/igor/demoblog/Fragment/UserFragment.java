@@ -61,7 +61,7 @@ public class UserFragment extends Fragment {
         blog6 = view.findViewById(R.id.blog6);
 
         Picasso.with(getActivity())
-                .load("https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80")
+                .load("https://lh3.googleusercontent.com/aoFWWdw3na1JtCo0Mq6qGx2OPL5f2UmrtWBNyuNAe-eyPu6CJ8DXo6J4r1zlKaVnnQmxrRUa0hc_ezjQxxIkQRCAHHA0_elxNI2AhHzIV-NimLCImXBejc3ydeHDj72KcTMMChCy3t-AXUDNTOt6OymKLGsPzHmagU_up4q_TOIrhBZ4sbZmj2x9Vy4qbFTKUlROH7kEcVoA3M7YdLuWzdZdD-0hAXmC0AD2PoEDHn2KMmZZ49bSEZA3P3Le043pLULn3vSmynAehgcadKVN9D36UzZDFb0nX6rCESXEnRgHBYaMDLTuvse6CwJlVEYZZKrAnebtkLr1Zzgm11kBtupHKZMaFywBfiFUUGunZ4pNWlQiV1BYPvK7xKk4fp_9DFsV0ZWfnP-bFbKaSZek1o4eLAD-wC1WBHMUp30_u0Vf2hEuffh4e_vSM1Xhxfask37pLGtFjRQPYovfuwHyKUF-N1HK432ZjdKeVttE-w0CKs5pm25wmvFGV3ZfANtMCkJMUidcfi-RkfIVHtKej97WsdGoQ0GQwk8P3DQrqclFNmLVvaEnQc0lzH6b_F9McRtSyeQH6SnwS7n8jHODu9Ss3lp9bWvRWbTnkHW4ZLMK2PQIvf2ZG9qgyOURlya6VGe1rbTHtYJVcEk8pq7YE2RLJkgYluUQ9q8iAiWab6fojx12FIDvlA=s640-no")
                 .into(user_image);
 
 

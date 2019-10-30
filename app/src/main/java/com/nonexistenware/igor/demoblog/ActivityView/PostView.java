@@ -37,7 +37,7 @@ public class PostView extends AppCompatActivity {
         postAuthorImage = findViewById(R.id.blog_author_image_post_view);
         postViewTitle = findViewById(R.id.blog_post_title_view);
         postAuthorName = findViewById(R.id.blog_post_author_name);
-        postDateView = findViewById(R.id.blog_post_date_view);
+//        postDateView = findViewById(R.id.blog_post_date_view);
         postDescription = findViewById(R.id.blog_post_description_view);
         postLikeCount = findViewById(R.id.blog_post_like_view_count);
         authorOfCommentImage = findViewById(R.id.author_of_comment_image);
@@ -73,7 +73,7 @@ public class PostView extends AppCompatActivity {
 
         postAuthorName.setText(Common.select_blog_item.authorPostCount);
         postViewTitle.setText(Common.select_blog_item.postTitle);
-        postDateView.setText(Common.select_blog_item.detailedDate);
+//        postDateView.setText(Common.select_blog_item.detailedDate);
         postLikeCount.setText(Common.select_blog_item.likeCount);
         postDescription.setText(Common.select_blog_item.postDescription);
     }
